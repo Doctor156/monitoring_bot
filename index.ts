@@ -25,7 +25,7 @@ const update = async () => {
 
     client.user?.setActivity(resString, { type: ActivityType.Playing });
   }
-  catch (error: Error) {
+  catch (error: any) {
     console.log(error);
   }
 }
